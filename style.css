@@ -1,0 +1,44 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: white !important;
+	position: fixed;
+	width: 100%;
+}
+
+li:hover {background-color: #f05f40 !important;}
+#liens:hover {color: #f05f40 !important;}
+
+
+
+h1 {
+}
+
+#img_header {
+	height: 850px;
+	width: 100%;
+	background-image: url(elements/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section {
+	height: 420px;
+	width: 100%;
+}
+
+#fond_orange {
+	background-color: #f05f40;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
