@@ -55,7 +55,9 @@ p {
 	max-width: 80%;
 }
 
-
+i{
+	color: #f05f40;
+}
 /*CSS qui l'image de fond du header*/
 #img_header {
 	height: 850px;
@@ -81,6 +83,32 @@ p {
 	justify-content: center;
 }
 
+#fond_blanc{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+#bloc_article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#fond_blanc p, h2{
+	color: black;
+}
+/*CSS qui gère la taille et la couleur du footer*/
+#footer{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
 
 /*CSS qui gère les boutons*/
 button {
