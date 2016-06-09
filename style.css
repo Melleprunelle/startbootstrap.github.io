@@ -41,11 +41,13 @@ h1 {
 	color: white !important;
 	font-size: 3em !important;
 }
-
+.hblanc{
+	color: white;
+}
 h2 {
 	font-family: "Open Sans", sans-serif !important;
 	font-weight: 300;
-	color: white !important;
+	color: white;
 	font-size: 1em;
 }
 
@@ -78,7 +80,6 @@ p {
 i{
 	color: #f05f40;
 }
-
 
 /*CSS qui l'image de fond du header*/
 
@@ -131,16 +132,43 @@ i{
 
 
 /*CSS qui gère la taille et la couleur du footer*/
-
-#footer{
-	background-color: white;
+.blockinner{
+	margin: auto;
+	width: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
 }
-
+#contact_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer{
+	padding:100px 0;
+	height: 100%;
+}
+footer{
+	background-color: white;
+}
+.noir_clair{
+	color:#222222;
+}
+footer p{
+	max-width: 100%;
+	color:#222222;
+}
+footer i{
+	color: #333;
+}
+.mail{
+	color: #f05f40;
+}
+.mail:hover{
+	text-decoration: underline;
+}
 
 /*CSS qui gère les boutons*/
 
