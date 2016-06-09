@@ -7,44 +7,50 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="bootstrap.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <script src="jquery.js"></script>
+  <script src="bootstrap.js"></script>
 
 </head>
-<body>
-<div class="container-fluid">
+<body class="container-fluid">
 
-	<header>
-		 <nav class="navbar-inverse navbar-fixed-top">
+<nav class="navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand titre_nav" id="liens" href="#">START BOOTSTRAP</a>
+      <button type="button" class="navbar-toggle bouton" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar icon_bar"></span>
+        <span class="icon-bar icon_bar"></span>
+        <span class="icon-bar icon_bar"></span>                        
+      </button>
+      <a id="startbootstrap" class="navbar-brand" href="#">START BOOTSTRAP</a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">SERVICES</a></li>
-      <li><a href="#">PORTFOLIO</a></li>
-      <li><a href="#">CONTACT</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a class="liens" href="#">ABOUT</a></li>
+        <li class="active"><a class="liens" href="#">SERVICES</a></li>
+        <li class="active"><a class="liens" href="#">PORTFOLIO</a></li>
+        <li class="active"><a class="liens" href="#">CONTACT</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
-	</header>
 
-<section class="row">
+<header class="row">
   <div id="img_header" class="col-md-12 text-center">
     <h1><strong>YOUR FAVORITE SOURCE OF<br>FREE BOOTSRAP THEMES</strong></h1>
     <hr>
-    <p>Inutiles mercede et adsueti talia lucris subditicios quoque   enim prandiis et mercede ignobiles quod haec ut inutiles inserunt inserunt enim nomenclatores adsueti prandiis accedente venditare.Inutiles mercede et adsueti talia lucris subditicios quoque   enim prandiis et mercede ignobilesquod haec ut inutiles inserunt inserunt enim nomenclatores adsueti prandiis accedente venditare.
+    <p>Inutiles mercede et adsueti talia lucris subditicios quoque   enim prandiis et mercede ignobiles quod haec ut inutiles inserunt inserunt enim nomenclatores adsueti.
     </p>
-    <button type="button" id="button_orange" class="btn btn-primary active">FINT OUR MORE</button>
+    <button type="button" id="button_orange" class="btn btn-primary active class_button">FINT OUR MORE</button>
   </div>
-</section>
+</header>
 
 <section class="row">
   <div id="fond_orange" class="col-md-12 text-center section">
-    <h2><strong>We've got what you need !</strong></h2>
+    <h2>We've got what you need !</h2>
     <hr id="hr_blanche">
-    <p>Inutiles mercede et adsueti talia lucris subditicios quoque   enim prandiis et mercede ignobiles quod haec ut inutiles inserunt inserunt enim nomenclatores adsueti prandiis accedente venditare.Inutiles mercede et adsueti talia lucris subditicios quoque   enim prandiis et mercede ignobilesquod haec ut inutiles inserunt inserunt enim nomenclatores adsueti prandiis accedente venditare.
+    <p>Inutiles mercede et adsueti talia lucris subditicios quoque   enim prandiis et mercede ignobiles quod haec ut inutiles inserunt inserunt enim nomenclatores adsueti.
     </p>
-    <button type="button" class="btn btn-primary active">FINT OUR MORE</button>
+    <button type="button" class="btn btn-primary active class_button">FINT OUR MORE</button>
   </div>
 </section>
 
@@ -94,8 +100,6 @@
     </div>
    </div> 
 </footer>
-	
-</div>
 
 </body>
 </html>
