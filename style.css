@@ -156,3 +156,40 @@ i{
 	background-color: #f05f40 !important;
 	color: white !important;
 }
+/*CSS qui va appeler les images de la galerie*/
+
+#gallery{
+	padding:0;
+}
+.g_img{
+	width: 428.66px;
+	height: 200px;
+}
+.g_img.p1{
+		margin:0;
+	background-image: url("elements/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.g_img.p2{
+	background-image: url("elements/2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.p3{
+	background-image: url("elements/3.jpg");
+	background-size: cover;
+}
+.p4{
+	background-image: url("elements/4.jpg");
+	background-size: cover;
+}
+.p5{
+	background-image: url("elements/5.jpg");
+	background-size: cover;
+}
+.p6{
+	background-image: url("elements/6.jpg");
+	background-size: cover;
+}
+
