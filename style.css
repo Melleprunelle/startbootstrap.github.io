@@ -49,6 +49,7 @@ h2 {
 	font-weight: 300;
 	color: white;
 	font-size: 1em;
+	margin-top: 0px !important;
 }
 
 
@@ -101,14 +102,16 @@ i{
 	height: 420px;}
 
 #fond_orange {
+	padding:50px;
 	background-color: #f05f40;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
 
 #fond_blanc{
+	margin-top: 60px;
+	margin-bottom: 60px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -178,7 +181,7 @@ footer i{
 	background-color: white !important;
 	border: 0px !important;
 	margin-top: 25px !important;
-	border-radius: 50px !important;
+	border-radius: 50px;
 	color: black !important;
 	font-family: 'Open Sans', sans-serif !important;
 	font-weight: 800 !important;
@@ -194,11 +197,16 @@ footer i{
 	padding:0;
 }
 .g_img{
-	width: 428.66px;
-	height: 301.533px;
+	padding:0px!important;
+	background-color: black;
 }
+.g_img img:hover{
+background-color: #f05f40!important;
+}
+
+/*CSS qui va appeler les images de la galerie*/
+/*
 .g_img.p1{
-		margin:0;
 	background-image: url("elements/1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
@@ -224,4 +232,4 @@ footer i{
 	background-image: url("elements/6.jpg");
 	background-size: cover;
 }
-
+*/
