@@ -6,203 +6,234 @@
 
 /*CSS qui gère la barre de navigation*/
 
-nav {background-color: white !important;}
+	nav {background-color: white;}
 
-#startbootstrap {
-	font-family: 'Open Sans', sans-serif !important;
-	font-weight: 800 !important;
-	color: #f05f40;
-}
+	#startbootstrap_nav {/*Titre de de la va*/
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+		color: #f05f40;
+	}
 
-.liens {
-	font-family: 'Open Sans', sans-serif !important;
-	font-weight: 800 !important;
-	color: #4D4D4D;
-}
+	.liens_nav {/*Liens de la nav*/
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+		color: #4D4D4D;
+	}
 
-.liens:hover {
-	background-color: #f05f40 !important;
-	color: white !important;
-}
+	.liens_nav:hover {/*Hover des liens de nav*/
+		background-color: #f05f40 !important;
+		color: white;
+	}
 
-.bouton {
-	border: 1px solid #4D4D4D !important;
-}
+	.bouton_nav {/*Le bouton "Burger" de la nav*/
+		border: 1px solid #4D4D4D;
+	}
 
-.icon_bar {
-	background-color: #4D4D4D;
-}
+	.icon_nav {/*Les barres du bouton"Burger" de la nav*/
+		background-color: #4D4D4D;
+	}
+
+
+/*CSS qui gère les boutons*/
+
+	.class_button {
+		height: 45px;
+		width: 175px;
+		background-color: white !important;
+		border: 0px;
+		margin-top: 25px;
+		border-radius: 50px;
+		color: black !important;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+	}
+
+	#button_orange {
+		background-color: #f05f40 !important;
+		color: white !important;
+	}
 
 
 /*CSS qui gère les titres*/
 
-h1 {
-	font-family: 'Open Sans', sans-serif !important;
-	color: white !important;
-	font-size: 3em !important;
-}
-.hblanc{
-	color: white;
-}
-h2 {
-	font-family: "Open Sans", sans-serif !important;
-	font-weight: 300;
-	color: white;
-	font-size: 1em;
-	margin-top: 0px !important;
-}
+	h1 {/*Grand titre du Header*/
+		font-family: 'Open Sans', sans-serif;
+		color: white;
+		font-size: 3em;
+	}
+
+	h2 {/*Sous-titres*/
+		font-family: "Open Sans", sans-serif;
+		font-weight: 300;
+		color: white;
+		font-size: 2em;
+		margin-top: 0px;
+	}
+
+	.h2blanc{/*Sous-titres blancs*/
+		color: white;
+	}
 
 
 /*CSS qui gère les barres entres titres*/
 
-hr {
-	width: 5%;
-	height: 3px !important;
-	background-color: #f05f40;
-	border-top: 0px !important;
-}
+	hr {/*Petites barres en titre et texte*/
+		width: 5%;
+		height: 3px;
+		background-color: #f05f40;
+		border-top: 0px;
+	}
 
-#hr_blanche
-	{background-color: white;
-}
+	#hr_blanche {/*Pour les barres blanches*/
+		background-color: white;
+	}
 
 
 /*CSS qui gère le texte*/
 
-p {
-	font-family: "Merriweather";
-	color: white;
-	margin-top: 25px !important;
-	font-size: 1.2em;
-	opacity: 0.7;
-	max-width: 80%;
-}
+	p {/*Pour les paragraphes de texte*/
+		font-family: "Merriweather";
+		color: white;
+		margin-top: 25px;
+		font-size: 1.2em;
+		opacity: 0.7;
+		max-width: 80%;
+	}
 
-i{
-	color: #f05f40;
-}
+	i{/*Pour les icônes*/
+		color: #f05f40;
+	}
+
 
 /*CSS qui l'image de fond du header*/
 
-#img_header {
-	height: 850px;
-	background-image: url(elements/header.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
+	#img_header {/*CSS image du Header*/
+		height: 850px;
+		background-image: url(elements/header.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 
 
 /*CSS qui gère les tailles et couleurs des sections*/
 
-.section {
-	height: 420px;}
+	/*.section {
+		height: 420px;}*/
 
-#fond_orange {
-	padding:50px;
-	background-color: #f05f40;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+	#fond_orange {/*Pour la section en fond orange*/
+		padding:60px;
+		background-color: #f05f40;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-#fond_blanc{
-	margin-top: 60px;
-	margin-bottom: 60px;
-	background-color: white;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	color: black;
-}
-#bloc_article{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-#fond_blanc p, h2{
-	color: black;
-}
-#fond_noir{
-	padding: 50px 0;
-	background-color: #222222;
-}
+	#fond_blanc{/*Pour la section en fond blanc*/
+		margin-top: 60px;
+		margin-bottom: 60px;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*justify-content: center;*/
+	}
+
+	#bloc_article{/*Pour les icones*/
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*justify-content: center;*/
+	}
+
+	#fond_blanc p, h2{
+		color: black;
+	}
+
+	#fond_noir{
+		padding: 60px 0;
+		background-color: #222222;
+	}
 
 
 /*CSS qui gère la taille et la couleur du footer*/
-.blockinner{
-	margin: auto;
-	width: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-#contact_text{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-footer{
-	padding:100px 0;
-	height: 100%;
-}
-footer{
-	background-color: white;
-}
-.noir_clair{
-	color:#222222;
-}
-footer p{
-	max-width: 100%;
-	color:#222222;
-}
-footer i{
-	color: #333;
-}
-.mail{
-	color: #f05f40;
-}
-.mail:hover{
-	text-decoration: underline;
-}
 
-/*CSS qui gère les boutons*/
+	/*.blockinner{ La div ne me semble pas utile, tu peux mettre
+		ses propriétés à même le footer.
+		margin: auto;
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*justify-content: center;*/
+	}
 
-.class_button {
-	height: 45px;
-	width: 175px;
-	background-color: white !important;
-	border: 0px !important;
-	margin-top: 25px !important;
-	border-radius: 50px;
-	color: black !important;
-	font-family: 'Open Sans', sans-serif !important;
-	font-weight: 800 !important;
-}
+	.titre_footer{/*Titre footer*/
+		color:#222222;
+	}
 
-#button_orange {
-	background-color: #f05f40 !important;
-	color: white !important;
-}
+	#contact_text{/*Css texte footer*/
+		margin-bottom: 50px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.icone_footer {/*icone du footer*/
+		margin-top: 20px;
+		color: #333
+	}
+
+	footer{/*taille footer*/
+		padding:100px 0;
+		height: 100%;
+		background-color: white;
+		margin: auto;
+		width: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer p{/*Css couleur et max texte*/
+		max-width: 100%;
+		color:#222222;
+	}
+
+	footer i{/*Couleur icone footer*/
+		color: #333;
+	}
+
+	.mail{/*Couleur mail*/
+		color: #f05f40;
+	}
+
+	.mail:hover{
+		text-decoration: underline;
+	}
+
+
 /*CSS qui va appeler les images de la galerie*/
 
 #gallery{
-	padding:0;
+	padding:0px;
 }
+
 .g_img{
-	padding:0px!important;
+	padding:0px;
 	background-color: black;
 }
+
 .g_img img:hover{
-background-color: #f05f40!important;
+background-color: #f05f40;
 }
+
+
+
 
 /*CSS qui va appeler les images de la galerie*/
 /*
