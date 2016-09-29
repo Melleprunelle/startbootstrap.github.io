@@ -109,7 +109,7 @@
 
 	#img_header {/*CSS image du Header*/
 		height: 850px;
-		background-image: url(elements/header.jpg);
+		background-image: url(../elements/header.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		display: flex;
